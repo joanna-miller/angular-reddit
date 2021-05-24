@@ -9,7 +9,6 @@ export class Article {
     this.votes = votes || 0;
   }
 
-
   voteUp(): void {
     this.votes += 1;
   }
